@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #2D3E50;
+}
+
+header{
+    width: 100vw;
+    height: 20%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.Title{
+    font-size: 80px;
+    color: #ECF0F1;
+}
+
+p{
+    font-size: 22px;
+    color: #BDC3C7;
+}
+
+.Mid{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+main{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20vh;
+}
+
+.DivInput{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+Input{
+    height: 3em;
+    width: 80%;
+    margin-top: 0.5em;
+    border-radius: 15px;
+    border-color: #6c9fc2;
+    background-color: #c3cfcf;
+    font-size: 15px;
+    padding-left: 0.5em;
+}
+
+p.TextInputCPF{
+    font-size: 25px;
+    color: #ECF0F1 ;
+}
+
+p.TextInputPassw{
+    padding-top: 15px;
+    font-size: 25px;
+    color: #ECF0F1;
+}
+
+button{
+    width: 40vw;
+    height: 7vh;
+    background-color: #c8d1d1;
+    margin-top: 30px ;
+    border-radius: 40px;
+    border-color: #6c9fc2;
+}
+
+.buttontext{
+    color: black;
+}
+
+#Alert{
+    color: red;
+    font-size: medium;
+}
+
+footer{
+    width: 50vw;
+    height: 40%;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15vh;
+}
+
+.cartao{
+    width: 60%;
+    height: 30vh;
+    border-radius: 20px;
+    background-color: #246ab6cc;
+    padding-left: 0.7em;
+    padding-right: 0.5em;
+}
+
+.cartaoTop{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.cartaoMid{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: flex-end;
+    margin-bottom: 0.5em;
+}
+
+.imagecartao{
+    width: 3.5em;
+    height: 3em;
+}
+
+.cartaoBot{
+    width: 100%;
+    height: 55%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+}
+
+@media screen and (max-width: 1177px) {
+    .Mid{
+        flex-direction: column;
+    }
+    main{
+        width: 100vw;
+    }
+    footer{
+        width: 100vw;
+    }
+    .cartao{
+        width: 40%;
+    }
+}
+@media  screen and (max-width: 875px){
+    .cartao{
+        width: 60%;
+    }    
+    }
+
+@media  screen and (max-width: 585px) {
+    .cartao{
+        width: 80%;
+    }
+    .Title{
+        font-size: 50px;
+    }
+}
+    

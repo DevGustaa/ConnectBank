@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConnectBank</title>
+</head>
+<body>
+    <header>
+        <p class="TextWelcome">Seja bem vindo ao</p>
+        <h1 class="Title">ConectBank</h1>
+    </header>
+    <div class="Mid">
+        <main>
+            <div class="DivInput">
+                <input id="InputCPF" placeholder="Preencha com seu CPF." oninput="this.value = this.value.replace(/[^0-9]/g, '');" type="text" maxlength="11" required>
+                <input id="InputPassw" type="password" placeholder="Preencha com sua senha.">
+            </div>
+            <button id="SearchButton"><p class="buttontext">Buscar</p></button>
+            <p id="Alert"></p>
+        </main>
+        <footer>
+            <div class="cartao">
+                <div class="cartaoTop">
+                    <p>ConectBank</p>
+                </div>
+                <div class="cartaoMid">
+                    <image class="imagecartao" src="assets/ChipLogo.png"></image>
+                </div>
+                <div class="cartaoBot">
+                    <p id="cartaoNome">Nome:</p>
+                    <p id="cartaoConta">Conta:</p>
+                    <p id="cartaoSaldo">Saldo:</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
