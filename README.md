@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">Project name 💻</h1>
+<h1 align="center" style="font-weight: bold;">ConnectBank 💻</h1>
 
 <p align="center">
  <a href="#tech">Technologies</a> • 
@@ -8,11 +8,7 @@
 </p>
 
 <p align="center">
-    <b>Simple description of what your project do or how to use it</b>
-</p>
-
-<p align="center">
-     <a href="PROJECT__URL">📱 Visit this Project</a>
+    <b>Projeto simples para demonstar habilidades em HTML, CSS E JavaScript</b>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
